@@ -1,2 +1,8 @@
+GitRepositoriesView.GitDirectories=C\:\\VENKAT\\DXC\\app-2\\DXC\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\VENKAT\\DXC\\app-2\\DXC\\.git;
+RepositoryGroups.uuids=
+RepositorySearchDialogDeepSearch=false
+RepositorySearchDialogSearchPath=C\:\\Program Files\\Git\\bin
+RepositorySearchDialogSkipHidden=false
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

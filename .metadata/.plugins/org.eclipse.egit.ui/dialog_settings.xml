@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="2"/>
+	<item key="GitSelectRepositoryPage.lastRepository" value="C:\VENKAT\DXC\app-2\DXC\.git"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/gottve6/DXC.git"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\VENKAT\DXC\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\vgottemukkal\git\DXC\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\vgottemukkal\git\repository\.git">
+			<item value="empty"/>
+		</list>
+	</section>
+	<section name="GitImportWizard">
+	</section>
+</section>
