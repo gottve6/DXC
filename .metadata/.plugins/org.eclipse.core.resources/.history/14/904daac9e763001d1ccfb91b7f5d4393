@@ -1,0 +1,31 @@
+package com.dxc.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Employee")
+public class Employee {
+
+	@Id
+	@Column(name="id")
+	private Long id;
+	@Column(name="ename")
+	private String ename;
+	@Column(name="mobile")
+	private int mobile;
+	@Column(name="salary")
+	private int salary;
+
+	public Employee() {
+	}
+
+	public Employee(Long id, String ename, int mobile, int salary) {
+		this.id = id;
+		this.ename = ename;
+		this.mobile = mobile;
+		this.salary = salary;
+	}
+}

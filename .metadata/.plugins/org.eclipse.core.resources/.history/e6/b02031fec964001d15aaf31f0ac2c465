@@ -1,0 +1,25 @@
+package com.dxc.application1;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+
+import com.dxc.entity.Employee;
+import com.dxc.repository.EmployeeRepository;
+
+@DataJpaTest
+public class EmployeeTests {
+
+	@Autowired
+	private EmployeeRepository repository;
+	
+	@Test
+	public void testCreateEmployee() {
+		Employee emp = new Employee();
+		emp.setId(11762055L);
+		emp.setName("Venkat");
+		emp.setMobile(123456);
+		emp.setSalary(1000);
+		repository.save(emp);
+	}
+}

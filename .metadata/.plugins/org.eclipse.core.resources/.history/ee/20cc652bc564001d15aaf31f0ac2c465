@@ -1,0 +1,12 @@
+package com.dxc.application1;
+
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+
+import com.dxc.repository.EmployeeRepository;
+
+@DataJpaTest
+public class EmployeeTests {
+
+	
+	private EmployeeRepository repository;
+}

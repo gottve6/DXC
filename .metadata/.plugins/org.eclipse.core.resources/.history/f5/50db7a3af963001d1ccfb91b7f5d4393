@@ -1,0 +1,12 @@
+package com.dxc.service;
+
+import com.dxc.entity.Employee;
+
+public class EmployeeService {
+
+	public String save(Employee employee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
