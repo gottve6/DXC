@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import com.dxc.entity.Employee;
 
-@Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 
 }

@@ -12,7 +12,7 @@ import com.dxc.repository.EmployeeRepository;
 @Service
 public class EmployeeService {
 	
-	@Autowired
+	@Autowired(required=false)
 	private EmployeeRepository repo;
 
 	public Employee addEmployee(Employee employee) {

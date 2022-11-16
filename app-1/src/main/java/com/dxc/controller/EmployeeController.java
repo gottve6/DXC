@@ -19,7 +19,7 @@ public class EmployeeController {
 	private EmployeeService service;
 	
 	@PostMapping("/create")
-	public Long addEmployee(@RequestBody Employee employee) {
+	public int addEmployee(@RequestBody Employee employee) {
 		service.addEmployee(employee);
 		return employee.getId();
 	}
