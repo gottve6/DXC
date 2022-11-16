@@ -1,0 +1,6 @@
+
+spring:
+  server:
+    port:9091
+  h2:
+    console.enabled: true
