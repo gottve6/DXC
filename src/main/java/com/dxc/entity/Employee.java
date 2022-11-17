@@ -17,7 +17,7 @@ public class Employee {
 	private String name;
 	private int mobile;
 	private int salary;
-
+	//constructor
 	public Employee() {
 	}
 
