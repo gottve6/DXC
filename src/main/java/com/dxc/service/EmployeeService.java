@@ -20,7 +20,7 @@ public class EmployeeService {
 	}
 	
 	public List<Employee> addEmployees(List<Employee> employees) {
-		return repo.saveAll(employees);
+		return (List<Employee>) repo.saveAll(employees);
 	}
 
 	public List<Employee> getAllEmployees() {
@@ -30,7 +30,7 @@ public class EmployeeService {
 		return employees;
 	}
 
-	public Employee getEmployeeById(long id) {
+	public Employee getEmployeeById(int id) {
 		return repo.findById(id).get();
 	}
 

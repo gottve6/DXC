@@ -65,6 +65,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\VENKAT\GIT\application-1"/>
 			<item value="C:\VENKAT\application-1"/>
 			<item value="C:\Users\vgottemukkal\Downloads\spring-boot2-jpa-crud-example-master"/>
 			<item value="C:\Users\vgottemukkal\Downloads\application-1\application-1"/>
