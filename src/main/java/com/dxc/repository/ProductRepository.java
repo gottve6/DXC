@@ -3,9 +3,9 @@ package com.dxc.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.dxc.entity.Employee;
+import com.dxc.entity.Product;
 
 @Repository
-public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
+public interface ProductRepository extends JpaRepository<Product, Integer> {
 
 }

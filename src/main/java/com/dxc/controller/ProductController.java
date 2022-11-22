@@ -10,35 +10,35 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.dxc.entity.Employee;
-import com.dxc.service.EmployeeService;
+import com.dxc.entity.Product;
+import com.dxc.service.ProductService;
 
 @RestController
 @RequestMapping("/api")
-public class EmployeeController {
+public class ProductController {
 
 	@Autowired
-	private EmployeeService service;
+	private ProductService service;
 
 	@PostMapping("/create")
-	public void addEmployee(@RequestBody Employee employee) {
-		service.addEmployee(employee);
+	public void addProduct(@RequestBody Product product) {
+		service.addProduct(product);
 
 	}
 
 	@PostMapping("/createAll")
-	public List<Employee> addEmployees(List<Employee> employees) {
-		return service.addEmployees(employees);
+	public List<Product> addProducts(List<Product> products) {
+		return service.addProducts(products);
 	}
 
 	@GetMapping("/readAll")
-	public List<Employee> getAllEmployees() {
-		return service.getAllEmployees();
+	public List<Product> getAllProducts() {
+		return service.getAllProducts();
 	}
 
 	@GetMapping("/read/{id}")
-	public Employee etEmployeeById(@PathVariable("id") int id) {
-		return service.getEmployeeById(id);
+	public Product getProductById(@PathVariable("id") int id) {
+		return service.getProductById(id);
 	}
 
 }
