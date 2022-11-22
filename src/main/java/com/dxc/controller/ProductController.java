@@ -25,12 +25,12 @@ public class ProductController {
 		service.addProduct(product);
 
 	}
-
+// creat All Method
 	@PostMapping("/createAll")
 	public List<Product> addProducts(List<Product> products) {
 		return service.addProducts(products);
 	}
-
+// read all method
 	@GetMapping("/readAll")
 	public List<Product> getAllProducts() {
 		return service.getAllProducts();
