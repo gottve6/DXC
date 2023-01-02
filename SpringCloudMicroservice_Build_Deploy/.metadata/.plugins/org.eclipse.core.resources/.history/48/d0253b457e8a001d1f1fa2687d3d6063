@@ -1,0 +1,18 @@
+// http://localhost:8080/users/1011
+	@GetMapping("/{userId}")
+	public String getUser(@PathVariable String userId) {
+		return "get user was called with :"+userId;
+	}
+-------
+// http://localhost:8080/users?id=1011&name=venu
+	@GetMapping
+	public String getUsers(@RequestParam(value="id") String id, @RequestParam("name") String name) {
+		return "get user was called with "+id+" and "+name;
+	}
+-------------
+to make inputs Optional 
+// http://localhost:8080/users?id=1011&name=venu
+		@GetMapping
+		public String getUsers(@RequestParam(value="id",defaultValue ="1") String id, @RequestParam(value="name", defaultValue = "venu") String name) {
+			return "get user was called with "+id+" and "+name;
+		}
