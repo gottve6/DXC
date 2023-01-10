@@ -1,6 +1,0 @@
-// http://localhost:8080/users/1011
-	@GetMapping("/{userId}")
-	public String getUser(@PathVariable String userId) {
-		return "get user was called with :"+userId;
-	}
--------
